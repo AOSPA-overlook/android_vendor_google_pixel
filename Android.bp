@@ -20,9 +20,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SoundPickerPrebuilt_32000122",
+	name: "SoundPickerPrebuilt_33000242",
 	owner: "google",
-	apk: "proprietary/product/app/SoundPickerPrebuilt_32000122/SoundPickerPrebuilt_32000122.apk",
+	apk: "proprietary/product/app/SoundPickerPrebuilt_33000242/SoundPickerPrebuilt_33000242.apk",
 	preprocessed: true,
 	presigned: true,
 	overrides: ["SoundPicker"],
@@ -58,9 +58,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SetupWizardPixelPrebuilt",
+	name: "SetupWizardPixelPrebuilt_v802960446",
 	owner: "google",
-	apk: "proprietary/system_ext/priv-app/SetupWizardPixelPrebuilt/SetupWizardPixelPrebuilt.apk",
+	apk: "proprietary/system_ext/priv-app/SetupWizardPixelPrebuilt_v802960446/SetupWizardPixelPrebuilt_v802960446.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -86,18 +86,6 @@ android_app_import {
 	name: "SystemUIClocks-Calligraphy",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/SystemUIClocks-Calligraphy/SystemUIClocks-Calligraphy.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "SystemUIClocks-Flex",
-	owner: "google",
-	apk: "proprietary/system_ext/priv-app/SystemUIClocks-Flex/SystemUIClocks-Flex.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
